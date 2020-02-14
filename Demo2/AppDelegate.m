@@ -7,16 +7,30 @@
 //
 
 #import "AppDelegate.h"
-
+#import "TestConstrainsViewController.h"
+#import "CollectViewController.h"
+#import "UrlConnViewController.h"
+#import "TestTableViewController.h"
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    //CollectViewController *mainViewController = [[CollectViewController alloc] init];
+    //TestConstrainsViewController *mainViewController = [[TestConstrainsViewController alloc] init];
+    //UrlConnViewController *mainViewController = [[UrlConnViewController alloc] init];
+    TestTableViewController *mainViewController = [[TestTableViewController alloc] init];
+    UINavigationController *navgationController = [[UINavigationController alloc] initWithRootViewController:mainViewController];
+         
+    self.window.rootViewController = navgationController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

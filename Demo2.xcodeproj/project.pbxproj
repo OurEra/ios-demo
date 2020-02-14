@@ -9,13 +9,26 @@
 /* Begin PBXBuildFile section */
 		A6EA1F6B23EC23800076FE44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA1F6A23EC23800076FE44 /* AppDelegate.m */; };
 		A6EA1F6E23EC23800076FE44 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA1F6D23EC23800076FE44 /* SceneDelegate.m */; };
-		A6EA1F7123EC23800076FE44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA1F7023EC23800076FE44 /* ViewController.m */; };
-		A6EA1F7423EC23800076FE44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6EA1F7223EC23800076FE44 /* Main.storyboard */; };
 		A6EA1F7623EC23830076FE44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6EA1F7523EC23830076FE44 /* Assets.xcassets */; };
 		A6EA1F7923EC23830076FE44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6EA1F7723EC23830076FE44 /* LaunchScreen.storyboard */; };
 		A6EA1F7C23EC23830076FE44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA1F7B23EC23830076FE44 /* main.m */; };
 		A6EA1F8623EC23830076FE44 /* Demo2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA1F8523EC23830076FE44 /* Demo2Tests.m */; };
 		A6EA1F9123EC23830076FE44 /* Demo2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA1F9023EC23830076FE44 /* Demo2UITests.m */; };
+		A6EA1FA423EC26AB0076FE44 /* TestConstrainsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA1FA223EC26AB0076FE44 /* TestConstrainsViewController.m */; };
+		A6EA1FA923ED0DA20076FE44 /* UrlConnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA1FA723ED0DA20076FE44 /* UrlConnViewController.m */; };
+		A6EA1FE523F59D470076FE44 /* CollectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA1FE323F59D470076FE44 /* CollectViewController.m */; };
+		A6EA1FE623F59D470076FE44 /* CollectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6EA1FE423F59D470076FE44 /* CollectViewController.xib */; };
+		A6EA1FF023F5A27B0076FE44 /* CustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA1FEE23F5A27B0076FE44 /* CustomCollectionViewCell.m */; };
+		A6EA1FF123F5A27B0076FE44 /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6EA1FEF23F5A27B0076FE44 /* CustomCollectionViewCell.xib */; };
+		A6EA1FF923F62BEA0076FE44 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA1FF423F62BEA0076FE44 /* Car.m */; };
+		A6EA1FFA23F62BEA0076FE44 /* bmwCar.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA1FF623F62BEA0076FE44 /* bmwCar.m */; };
+		A6EA1FFB23F62BEA0076FE44 /* Driver.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA1FF823F62BEA0076FE44 /* Driver.m */; };
+		A6EA1FFE23F62DFC0076FE44 /* TestConstrainsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6EA1FFD23F62DFC0076FE44 /* TestConstrainsViewController.xib */; };
+		A6EA200023F630B50076FE44 /* UrlConnViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6EA1FFF23F630B50076FE44 /* UrlConnViewController.xib */; };
+		A6EA200423F634FC0076FE44 /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA200223F634FC0076FE44 /* TestTableViewController.m */; };
+		A6EA200523F634FC0076FE44 /* TestTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6EA200323F634FC0076FE44 /* TestTableViewController.xib */; };
+		A6EA200A23F638890076FE44 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA200823F638890076FE44 /* CustomTableViewCell.m */; };
+		A6EA200B23F638890076FE44 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6EA200923F638890076FE44 /* CustomTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,9 +54,6 @@
 		A6EA1F6A23EC23800076FE44 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A6EA1F6C23EC23800076FE44 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		A6EA1F6D23EC23800076FE44 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		A6EA1F6F23EC23800076FE44 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A6EA1F7023EC23800076FE44 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A6EA1F7323EC23800076FE44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A6EA1F7523EC23830076FE44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6EA1F7823EC23830076FE44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6EA1F7A23EC23830076FE44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +64,30 @@
 		A6EA1F8C23EC23830076FE44 /* Demo2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6EA1F9023EC23830076FE44 /* Demo2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo2UITests.m; sourceTree = "<group>"; };
 		A6EA1F9223EC23830076FE44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6EA1FA223EC26AB0076FE44 /* TestConstrainsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestConstrainsViewController.m; sourceTree = "<group>"; };
+		A6EA1FA623ED0DA20076FE44 /* UrlConnViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UrlConnViewController.h; sourceTree = "<group>"; };
+		A6EA1FA723ED0DA20076FE44 /* UrlConnViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UrlConnViewController.m; sourceTree = "<group>"; };
+		A6EA1FE223F59D470076FE44 /* CollectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectViewController.h; sourceTree = "<group>"; };
+		A6EA1FE323F59D470076FE44 /* CollectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectViewController.m; sourceTree = "<group>"; };
+		A6EA1FE423F59D470076FE44 /* CollectViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectViewController.xib; sourceTree = "<group>"; };
+		A6EA1FED23F5A27B0076FE44 /* CustomCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCollectionViewCell.h; sourceTree = "<group>"; };
+		A6EA1FEE23F5A27B0076FE44 /* CustomCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionViewCell.m; sourceTree = "<group>"; };
+		A6EA1FEF23F5A27B0076FE44 /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCollectionViewCell.xib; sourceTree = "<group>"; };
+		A6EA1FF323F62BEA0076FE44 /* bmwCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bmwCar.h; sourceTree = "<group>"; };
+		A6EA1FF423F62BEA0076FE44 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		A6EA1FF523F62BEA0076FE44 /* Driver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Driver.h; sourceTree = "<group>"; };
+		A6EA1FF623F62BEA0076FE44 /* bmwCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bmwCar.m; sourceTree = "<group>"; };
+		A6EA1FF723F62BEA0076FE44 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		A6EA1FF823F62BEA0076FE44 /* Driver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Driver.m; sourceTree = "<group>"; };
+		A6EA1FFC23F62DFC0076FE44 /* TestConstrainsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestConstrainsViewController.h; sourceTree = "<group>"; };
+		A6EA1FFD23F62DFC0076FE44 /* TestConstrainsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestConstrainsViewController.xib; sourceTree = "<group>"; };
+		A6EA1FFF23F630B50076FE44 /* UrlConnViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UrlConnViewController.xib; sourceTree = "<group>"; };
+		A6EA200123F634FC0076FE44 /* TestTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewController.h; sourceTree = "<group>"; };
+		A6EA200223F634FC0076FE44 /* TestTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewController.m; sourceTree = "<group>"; };
+		A6EA200323F634FC0076FE44 /* TestTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestTableViewController.xib; sourceTree = "<group>"; };
+		A6EA200723F638890076FE44 /* CustomTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		A6EA200823F638890076FE44 /* CustomTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		A6EA200923F638890076FE44 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,17 +138,29 @@
 		A6EA1F6823EC23800076FE44 /* Demo2 */ = {
 			isa = PBXGroup;
 			children = (
+				A6EA200623F6384E0076FE44 /* tablecell */,
 				A6EA1F6923EC23800076FE44 /* AppDelegate.h */,
 				A6EA1F6A23EC23800076FE44 /* AppDelegate.m */,
+				A6EA1F7523EC23830076FE44 /* Assets.xcassets */,
+				A6EA1FEC23F5A2510076FE44 /* cell */,
+				A6EA1FE223F59D470076FE44 /* CollectViewController.h */,
+				A6EA1FE323F59D470076FE44 /* CollectViewController.m */,
+				A6EA1FE423F59D470076FE44 /* CollectViewController.xib */,
+				A6EA1F7A23EC23830076FE44 /* Info.plist */,
+				A6EA1F7723EC23830076FE44 /* LaunchScreen.storyboard */,
+				A6EA1F7B23EC23830076FE44 /* main.m */,
 				A6EA1F6C23EC23800076FE44 /* SceneDelegate.h */,
 				A6EA1F6D23EC23800076FE44 /* SceneDelegate.m */,
-				A6EA1F6F23EC23800076FE44 /* ViewController.h */,
-				A6EA1F7023EC23800076FE44 /* ViewController.m */,
-				A6EA1F7223EC23800076FE44 /* Main.storyboard */,
-				A6EA1F7523EC23830076FE44 /* Assets.xcassets */,
-				A6EA1F7723EC23830076FE44 /* LaunchScreen.storyboard */,
-				A6EA1F7A23EC23830076FE44 /* Info.plist */,
-				A6EA1F7B23EC23830076FE44 /* main.m */,
+				A6EA200123F634FC0076FE44 /* TestTableViewController.h */,
+				A6EA200223F634FC0076FE44 /* TestTableViewController.m */,
+				A6EA200323F634FC0076FE44 /* TestTableViewController.xib */,
+				A6EA1FFC23F62DFC0076FE44 /* TestConstrainsViewController.h */,
+				A6EA1FA223EC26AB0076FE44 /* TestConstrainsViewController.m */,
+				A6EA1FFD23F62DFC0076FE44 /* TestConstrainsViewController.xib */,
+				A6EA1FF223F62B8D0076FE44 /* testmm */,
+				A6EA1FA623ED0DA20076FE44 /* UrlConnViewController.h */,
+				A6EA1FA723ED0DA20076FE44 /* UrlConnViewController.m */,
+				A6EA1FFF23F630B50076FE44 /* UrlConnViewController.xib */,
 			);
 			path = Demo2;
 			sourceTree = "<group>";
@@ -135,6 +181,39 @@
 				A6EA1F9223EC23830076FE44 /* Info.plist */,
 			);
 			path = Demo2UITests;
+			sourceTree = "<group>";
+		};
+		A6EA1FEC23F5A2510076FE44 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				A6EA1FED23F5A27B0076FE44 /* CustomCollectionViewCell.h */,
+				A6EA1FEE23F5A27B0076FE44 /* CustomCollectionViewCell.m */,
+				A6EA1FEF23F5A27B0076FE44 /* CustomCollectionViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		A6EA1FF223F62B8D0076FE44 /* testmm */ = {
+			isa = PBXGroup;
+			children = (
+				A6EA1FF323F62BEA0076FE44 /* bmwCar.h */,
+				A6EA1FF623F62BEA0076FE44 /* bmwCar.m */,
+				A6EA1FF723F62BEA0076FE44 /* Car.h */,
+				A6EA1FF423F62BEA0076FE44 /* Car.m */,
+				A6EA1FF523F62BEA0076FE44 /* Driver.h */,
+				A6EA1FF823F62BEA0076FE44 /* Driver.m */,
+			);
+			path = testmm;
+			sourceTree = "<group>";
+		};
+		A6EA200623F6384E0076FE44 /* tablecell */ = {
+			isa = PBXGroup;
+			children = (
+				A6EA200723F638890076FE44 /* CustomTableViewCell.h */,
+				A6EA200823F638890076FE44 /* CustomTableViewCell.m */,
+				A6EA200923F638890076FE44 /* CustomTableViewCell.xib */,
+			);
+			path = tablecell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,8 +320,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6EA1F7923EC23830076FE44 /* LaunchScreen.storyboard in Resources */,
+				A6EA1FF123F5A27B0076FE44 /* CustomCollectionViewCell.xib in Resources */,
+				A6EA1FE623F59D470076FE44 /* CollectViewController.xib in Resources */,
+				A6EA1FFE23F62DFC0076FE44 /* TestConstrainsViewController.xib in Resources */,
+				A6EA200523F634FC0076FE44 /* TestTableViewController.xib in Resources */,
+				A6EA200023F630B50076FE44 /* UrlConnViewController.xib in Resources */,
+				A6EA200B23F638890076FE44 /* CustomTableViewCell.xib in Resources */,
 				A6EA1F7623EC23830076FE44 /* Assets.xcassets in Resources */,
-				A6EA1F7423EC23800076FE44 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,10 +351,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6EA1F7123EC23800076FE44 /* ViewController.m in Sources */,
 				A6EA1F6B23EC23800076FE44 /* AppDelegate.m in Sources */,
+				A6EA1FA923ED0DA20076FE44 /* UrlConnViewController.m in Sources */,
+				A6EA200A23F638890076FE44 /* CustomTableViewCell.m in Sources */,
+				A6EA1FFA23F62BEA0076FE44 /* bmwCar.m in Sources */,
+				A6EA200423F634FC0076FE44 /* TestTableViewController.m in Sources */,
 				A6EA1F7C23EC23830076FE44 /* main.m in Sources */,
+				A6EA1FA423EC26AB0076FE44 /* TestConstrainsViewController.m in Sources */,
 				A6EA1F6E23EC23800076FE44 /* SceneDelegate.m in Sources */,
+				A6EA1FE523F59D470076FE44 /* CollectViewController.m in Sources */,
+				A6EA1FF923F62BEA0076FE44 /* Car.m in Sources */,
+				A6EA1FF023F5A27B0076FE44 /* CustomCollectionViewCell.m in Sources */,
+				A6EA1FFB23F62BEA0076FE44 /* Driver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,14 +398,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A6EA1F7223EC23800076FE44 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A6EA1F7323EC23800076FE44 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A6EA1F7723EC23830076FE44 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -375,7 +459,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -427,7 +511,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
